@@ -3,25 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Apple-Like Header</title>
+    <title>My Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
-        <div class="logo">MySite</div>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <h1> My Website!</h1>
-        <h2> this is not showing ??? is every thing working now 
-        </h2>
+
+    <!-- Main Section -->
+    <main id="home">
+        <section class="intro">
+            <h1>Hello, I'm [Your Name]</h1>
+            <p>I'm a [Your Profession]</p>
+            <a href="#about" class="btn">About Me</a>
+        </section>
+        <section class="social-media">
+            <a href="https://twitter.com/yourprofile" target="_blank" class="social-icon">Twitter</a>
+            <a href="https://linkedin.com/in/yourprofile" target="_blank" class="social-icon">LinkedIn</a>
+            <!-- Add more social icons as needed -->
+        </section>
     </main>
-    <footer>i just want to try will this work or not </footer>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
 </body>
 </html>
